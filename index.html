@@ -7,14 +7,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+      <!-- checkerboard background for the body: provided by Topal Subtle Patterns -->
+    <style>
+        body{
+            background-image: url(images/checkerboard-cross.png)
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div>
+        <div class="header-title">
             <h1>Brigham Mueller</h1>
         </div>
 
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-light navbar-expand-md">
           
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -40,7 +46,7 @@
 
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-9">
+            <div class="col-11">
                 <!-- section to allow for padding and styling -->
                 <section class="content">
                     <h2>About me</h2>
@@ -73,5 +79,15 @@
             </div>
         </div>
     </div>
+
+  <!-- <footer class="footer mt-auto py-3">
+    <div class="container">
+      <span class="text-muted">Copyright &copy;</span>
+    </div>
+  </footer> -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

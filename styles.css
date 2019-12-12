@@ -1,0 +1,125 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    color: #777777;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+header {
+    background: #ffffff;
+    border: 2px solid #cccccc;
+}
+
+.header-title {
+    background: #4aaaaf;
+    height: 50px;
+    width: 170px;
+    float:left;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10%;
+}
+
+h1,h3 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #4aaaaf;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 30px;
+    margin-right: 10%;
+}
+
+nav a {
+    color: #777777;
+    text-decoration: none;
+}
+
+.content {
+    background: #ffffff;
+    border: 2px solid #cccccc;
+    padding: 10px;
+}
+
+header:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+button {
+    color: black;
+}
+
+.row {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#myFace {
+    height: 200px;
+    width: 250px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.content:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.photo-box {
+    display: inline-block;
+    margin: 25px;
+}
+
+.photo-box img {
+    height: 200px;
+    width: 250px;
+}
+
+/*changing the position of the banners relative to their photos and allow them to be over the photo */
+.photo-banner {
+    width: 250px;
+    position: relative;
+    padding: 1px;
+    bottom: 75px;
+    z-index: 3;
+    background: #4aaaa5;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+#submit {
+    background: #4aaaa5;
+    color: white;
+    padding: 3px;
+    width: 100px;
+}
+
+.footer {
+    background: #666666;
+    width: 100%;
+    height: 50px;
+}
